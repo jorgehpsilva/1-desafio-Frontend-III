@@ -48,7 +48,6 @@ function App() {
     return (
         <div className="App">
             <h1>Desafio FrontEnd III</h1>
-            <h2>Cores da DH</h2>
             <form onSubmit={createCard} className={formularyError? 'form-error' : ''}>
 
                 <label htmlFor="colorName">Nome</label>
@@ -65,6 +64,9 @@ function App() {
                     <span>Por favor, verifique os dados inseridos no formulário</span>
                 ) : null
             }
+            <div>
+            <h2>Cores da DH</h2>
+            </div>
             <div>
                 {
                     allCards.map(
