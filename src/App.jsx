@@ -13,7 +13,7 @@ const validateColorHex = (colorHex) => {
     let split = withoutSpaces.split("")
     console.log(split)
     console.log(split[0])
-    return withoutSpaces.length > 5 && split[0] === "#" ? withoutSpaces : false;
+    return withoutSpaces.length > 5 && split[0] === "#" ? withoutSpaces : false; 
 }
 
 function App() {
